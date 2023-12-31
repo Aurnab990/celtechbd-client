@@ -1,0 +1,30 @@
+/* Menu.css */
+
+
+.menu-container a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px; /* Spacing between menu items */
+    height: 40px; /* Set the desired height */
+    line-height: 40px; /* Center the text vertically within the height */
+    padding-left: 10px; /* Add left margin */
+    font-size: 18px; /* Increase text size */
+    font-weight: 600; /* Set font weight to semibold */
+    font-family: 'Roboto',sans-serif; /* Set the desired font-family */
+    transition: background-color 0.2s ease;
+    display: flex; 
+    gap: 6px;/* Make child elements (icon and text) flex items */
+    align-items: center;
+}
+
+.menu-container a:hover {
+    width: 100%;
+    border-radius: 4px;
+    background-color: #6FB50F; /* Background color on hover */
+}
+
+.menu-container a .icon {
+    font-size: 30px;
+    margin-right: 10px; /* Add margin to the right of the icon */
+}

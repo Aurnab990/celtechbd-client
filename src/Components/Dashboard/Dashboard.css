@@ -1,0 +1,64 @@
+Dashboard.css
+.dashboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.dashboard-card {
+    background-color: #f05656;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.dashboard-card h2 {
+    font-size: 20px;
+}
+.customer-details{
+    margin-top: 24px;
+    margin-left: -40px;
+    margin-right: 120px;
+    font-size: 20px;
+}
+
+.new-customer-list {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+}
+h2{
+    color: white;
+}
+p{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.new-customer-list h2 {
+    font-size: 20px;
+}
+
+.new-customer-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.new-customer-list li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.chartbar{
+    width: 500px;
+    height: 600px;
+}
